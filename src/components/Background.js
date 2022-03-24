@@ -3,7 +3,7 @@ import React from "react";
 
 const Background = ({ children }) => {
   return (
-    <body className="bg-white dark:bg-backgroundBlack h-screen  transition-all">
+    <body className="bg-grey dark:bg-backgroundBlack h-screen  transition-all">
       {children}
     </body>
   );
